@@ -1,0 +1,61 @@
+Customer ID,Name,Email,Product Purchased,Purchase Date,Amount Spent ($),Age,City,Payment Method,Last Login Date,Membership Status
+TG-0001,Julián Gómez,julian.gomez.tg-0001@example.com,Auriculares Bluetooth,2024-05-22,140.4,31,Manizales,Credit Card,2026-06-15,Gold
+TG-0002,Nicolás Gómez,nicolas.gomez.tg-0002@example.com,Laptop Gamer,2025-06-01,368.99,40,Manizales,Credit Card,2026-04-05,Gold
+TG-0003,Tomás Rojas,tomas.rojas.tg-0003@example.com,Smartwatch,2026-04-08,675.88,34,Pereira,Debit Card,2026-04-08,Silver
+TG-0004,Valentina Torres,valentina.torres.tg-0004@example.com,Auriculares Bluetooth,2024-04-04,272.44,42,Bucaramanga,Debit Card,2025-04-28,Gold
+TG-0005,Daniela Ramírez,daniela.ramirez.tg-0005@example.com,Auriculares Bluetooth,2024-05-07,412.76,44,Manizales,Debit Card,2025-05-29,Gold
+TG-0006,Mateo Molina,mateo.molina.tg-0006@example.com,Teclado Mecánico,2025-11-08,427.31,33,Medellín,Credit Card,2026-01-05,Bronze
+TG-0007,Sara Ortiz,sara.ortiz.tg-0007@example.com,Mouse Inalámbrico,2024-06-15,477.21,13,Cúcuta,PayPal,2025-06-29,Silver
+TG-0008,Camila Molina,camila.molina.tg-0008@example.com,Impresora 3D,2024-09-07,93.97,22,Pereira,Debit Card,2025-02-21,Gold
+TG-0009,Tomás Torres,tomas.torres.tg-0009@example.com,Monitor 27'',2026-03-05,153.57,22,Bogotá,Debit Card,2026-03-19,Silver
+TG-0010,Daniela Pardo,daniela.pardo.tg-0010@example.com,Mouse Inalámbrico,2026-06-16,938.57,38,Cúcuta,PayPal,2026-07-08,Silver
+TG-0011,Sara Herrera,sara.herrera.tg-0011@example.com,Cámara Web 4K,2024-09-09,387.15,22,Barranquilla,PayPal,2026-04-06,Gold
+TG-0012,Nicolás Molina,nicolas.molina.tg-0012@example.com,Impresora 3D,2024-05-21,443.1,25,Medellín,Credit Card,2025-10-24,Bronze
+TG-0013,Valentina Herrera,valentina.herrera.tg-0013@example.com,Tablet 10'',2025-09-02,666.59,41,Pereira,PayPal,2025-10-04,Silver
+TG-0014,Lucía Ortiz,lucia.ortiz.tg-0014@example.com,Silla Gamer,2024-01-12,241.69,55,Medellín,PayPal,2025-12-08,Gold
+TG-0015,Daniela Ramírez,daniela.ramirez.tg-0015@example.com,Impresora 3D,2025-03-21,237.08,28,Bogotá,PayPal,2025-06-09,Gold
+TG-0016,Daniela Suárez,daniela.suarez.tg-0016@example.com,Teclado Mecánico,2024-04-18,26.35,33,Manizales,PayPal,2026-01-18,Bronze
+TG-0017,Valentina Vélez,valentina.velez.tg-0017@example.com,Parlante Portátil,2026-03-08,17.74,33,Bucaramanga,Debit Card,2026-03-08,Bronze
+TG-0018,Julián Vélez,julian.velez.tg-0018@example.com,Laptop Gamer,2024-11-10,33.85,48,Cúcuta,PayPal,2025-07-13,Bronze
+TG-0019,Camila Castro,camila.castro.tg-0019@example.com,Smartwatch,2026-02-17,343.66,27,Cali,PayPal,2026-07-03,Silver
+TG-0020,Tomás Ríos,tomas.rios.tg-0020@example.com,Monitor 27'',2025-03-09,860.27,29,Manizales,PayPal,2026-07-15,Gold
+TG-0021,Mariana Castro,mariana.castro.tg-0021@example.com,Impresora 3D,2025-10-27,1120.76,17,Manizales,Debit Card,2026-05-06,Bronze
+TG-0022,Esteban Torres,esteban.torres.tg-0022@example.com,Parlante Portátil,2025-07-21,355.99,34,Cúcuta,Credit Card,2025-11-15,Bronze
+TG-0023,Andrés Torres,andres.torres.tg-0023@example.com,Cámara Web 4K,2024-12-04,361.99,34,Cúcuta,Debit Card,2025-02-14,Gold
+TG-0024,Diego Torres,diego.torres.tg-0024@example.com,Parlante Portátil,2026-06-22,233.29,13,Cartagena,Credit Card,2026-07-10,Silver
+TG-0025,Nicolás Torres,nicolas.torres.tg-0025@example.com,Tablet 10'',2024-12-28,548.03,46,Cartagena,PayPal,2026-03-06,Bronze
+TG-0026,Julián Gómez,julian.gomez.tg-0026@example.com,Monitor 27'',2026-06-01,470.97,23,Cúcuta,Credit Card,2026-06-07,Gold
+TG-0027,Paula Ríos,paula.rios.tg-0027@example.com,Impresora 3D,2024-09-12,434.03,23,Manizales,Credit Card,2024-11-28,Bronze
+TG-0028,Tomás Gómez,tomas.gomez.tg-0028@example.com,Smartwatch,2026-05-19,220.04,58,Pereira,Debit Card,2026-06-03,Silver
+TG-0029,Mariana Rojas,mariana.rojas.tg-0029@example.com,Teclado Mecánico,2024-01-03,245.28,37,Cartagena,Debit Card,2025-02-05,Silver
+TG-0030,Tomás Herrera,tomas.herrera.tg-0030@example.com,Laptop Gamer,2024-10-30,187.17,30,Santa Marta,PayPal,2025-06-09,Gold
+TG-0031,Andrés Castro,andres.castro.tg-0031@example.com,Cámara Web 4K,2025-05-03,411.83,30,Cali,Credit Card,2026-01-15,Gold
+TG-0032,Camila Ríos,camila.rios.tg-0032@example.com,Tablet 10'',2026-06-01,375.71,36,Medellín,PayPal,2026-06-16,Bronze
+TG-0033,Andrés Molina,andres.molina.tg-0033@example.com,Mouse Inalámbrico,2025-08-01,522.47,47,Barranquilla,Credit Card,2026-04-25,Gold
+TG-0034,Isabella Torres,isabella.torres.tg-0034@example.com,Impresora 3D,2025-10-22,472.05,31,Bucaramanga,Credit Card,2026-03-24,Bronze
+TG-0035,Paula Molina,paula.molina.tg-0035@example.com,Monitor 27'',2024-03-16,326.59,71,Manizales,Debit Card,2025-09-17,Bronze
+TG-0036,Mateo Pardo,mateo.pardo.tg-0036@example.com,Cámara Web 4K,2024-06-10,163.21,40,Barranquilla,PayPal,2025-09-01,Gold
+TG-0037,Lucía Gómez,lucia.gomez.tg-0037@example.com,Smartwatch,2025-11-10,47.39,24,Barranquilla,Credit Card,2025-12-06,Bronze
+TG-0038,Tomás Ríos,tomas.rios.tg-0038@example.com,Monitor 27'',2026-01-04,685.81,29,Barranquilla,PayPal,2026-04-01,Silver
+TG-0039,Daniela Gómez,daniela.gomez.tg-0039@example.com,Laptop Gamer,2024-10-10,484.55,42,Bucaramanga,Credit Card,2024-11-24,Gold
+TG-0040,Daniela Ríos,daniela.rios.tg-0040@example.com,Laptop Gamer,2025-03-13,23.84,31,Medellín,Credit Card,2025-12-25,Gold
+TG-0041,Valentina Suárez,valentina.suarez.tg-0041@example.com,Tablet 10'',2025-07-19,391.02,43,Cali,Credit Card,2025-10-02,Silver
+TG-0042,Mateo Ramírez,mateo.ramirez.tg-0042@example.com,SSD Externo 1TB,2025-01-01,322.1,35,Cúcuta,PayPal,2025-08-04,Bronze
+TG-0043,Mateo Ramírez,mateo.ramirez.tg-0043@example.com,Monitor 27'',2025-09-27,140.28,13,Cali,Credit Card,2025-12-15,Silver
+TG-0044,Laura Ríos,laura.rios.tg-0044@example.com,SSD Externo 1TB,2025-02-25,102.19,31,Cúcuta,Debit Card,2026-04-11,Bronze
+TG-0045,Julián Rojas,julian.rojas.tg-0045@example.com,Impresora 3D,2024-08-15,65.05,48,Bucaramanga,Debit Card,2025-03-07,Bronze
+TG-0046,Esteban Gómez,esteban.gomez.tg-0046@example.com,Teclado Mecánico,2024-10-12,113.64,25,Bucaramanga,PayPal,2024-12-22,Gold
+TG-0047,Sara Herrera,sara.herrera.tg-0047@example.com,Teclado Mecánico,2024-01-29,296.92,46,Cali,PayPal,2024-05-26,Silver
+TG-0048,Andrés Pardo,andres.pardo.tg-0048@example.com,Tablet 10'',2026-03-16,198.45,22,Santa Marta,PayPal,2026-04-25,Bronze
+TG-0049,Sara Molina,sara.molina.tg-0049@example.com,Cámara Web 4K,2025-03-22,407.86,33,Manizales,PayPal,2025-03-22,Gold
+TG-0050,Mariana Vélez,mariana.velez.tg-0050@example.com,SSD Externo 1TB,2024-12-04,600.28,13,Medellín,PayPal,2025-10-21,Silver
+TG-0051,Lucía Ortiz,lucia.ortiz.tg-0051@example.com,Cámara Web 4K,2025-12-14,134.76,26,Cali,Credit Card,2026-02-27,Silver
+TG-0052,Sara Herrera,sara.herrera.tg-0052@example.com,Tablet 10'',2025-08-05,174.23,31,Manizales,Credit Card,2026-01-06,Silver
+TG-0053,Felipe Torres,felipe.torres.tg-0053@example.com,Impresora 3D,2025-11-01,481.03,17,Cartagena,Debit Card,2026-04-14,Gold
+TG-0054,Mariana Suárez,mariana.suarez.tg-0054@example.com,Smartwatch,2026-03-26,428.8,13,Medellín,Debit Card,2026-06-28,Gold
+TG-0055,Isabella Pardo,isabella.pardo.tg-0055@example.com,Monitor 27'',2025-11-19,89.18,40,Cúcuta,Credit Card,2026-02-06,Bronze
+TG-0056,Andrés Torres,andres.torres.tg-0056@example.com,Impresora 3D,2026-02-25,298.99,48,Pereira,PayPal,2026-03-15,Gold
+TG-0057,Mariana Castro,mariana.castro.tg-0057@example.com,SSD Externo 1TB,2024-09-06,48.44,27,Bogotá,Credit Card,2025-02-04,Silver
+TG-0058,Esteban Ríos,esteban.rios.tg-0058@example.com,Cámara Web 4K,2025-04-20,73.22,38,Cúcuta,Credit Card,2025-05-15,Silver
+TG-0059,Valentina Ramírez,valentina.ramirez.tg-0059@example.com,Mouse Inalámbrico,2025-07-26,405.51,17,Cartagena,PayPal,2026-05-26,Gold
+TG-0060,Lucía Rojas,lucia.rojas.tg-0060@example.com,Impresora 3D,2024-06-11,48.49,39,Cartagena,Debit Card,2026-07-12,Bronze

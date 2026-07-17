@@ -1,0 +1,361 @@
+/* =========================================================
+   TrendGear Dashboard — Estilos
+   Paleta: negro + verde (especificación del cliente)
+   Tipografía: Roboto (texto) / Roboto Mono (datos numéricos)
+   ========================================================= */
+
+:root {
+  --bg-page: #0a0a0a;
+  --bg-surface: #121412;
+  --bg-card: #151b15;
+  --bg-card-hover: #1a221a;
+  --border: #223322;
+  --border-strong: #2f4a2f;
+
+  --green-500: #00e676;
+  --green-600: #00c853;
+  --green-300: #7cffb2;
+  --green-dim: #294a2f;
+
+  --text-primary: #eafbea;
+  --text-secondary: #9db89d;
+  --text-muted: #5f7a5f;
+
+  --font-body: "Roboto", -apple-system, sans-serif;
+  --font-data: "Roboto Mono", ui-monospace, monospace;
+
+  --radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--green-500);
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: rgba(10, 10, 10, 0.92);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+
+.logo .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--green-500);
+}
+
+.logo .accent {
+  color: var(--green-500);
+  font-family: var(--font-data);
+}
+
+nav.main-nav {
+  display: flex;
+  gap: 28px;
+}
+
+nav.main-nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.15s ease;
+}
+
+nav.main-nav a:hover,
+nav.main-nav a:focus-visible {
+  color: var(--green-500);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  padding: 9px 10px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 20px;
+  height: 2px;
+  background: var(--green-500);
+  display: block;
+}
+
+/* ---------- Main / layout ---------- */
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+.hero {
+  margin-bottom: 32px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin: 0 0 6px;
+}
+
+.hero p {
+  color: var(--text-secondary);
+  margin: 0;
+  max-width: 640px;
+}
+
+/* ---------- KPI cards ---------- */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 28px 0 36px;
+}
+
+.kpi-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--green-500);
+}
+
+.kpi-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 0 0 8px;
+}
+
+.kpi-value {
+  font-family: var(--font-data);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.kpi-value.accent {
+  color: var(--green-500);
+}
+
+/* ---------- Toolbar / filtros ---------- */
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toolbar input,
+.toolbar select {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+
+.toolbar input {
+  flex: 1;
+  min-width: 220px;
+}
+
+.toolbar input:focus,
+.toolbar select:focus {
+  outline: none;
+  border-color: var(--green-500);
+}
+
+.result-count {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: -6px 0 18px;
+}
+
+/* ---------- Tabla de clientes ---------- */
+.table-wrapper {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+thead th {
+  text-align: left;
+  padding: 12px 14px;
+  background: var(--bg-surface);
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+tbody td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr {
+  transition: background 0.12s ease;
+}
+
+tbody tr:hover {
+  background: var(--bg-card-hover);
+}
+
+td.amount,
+td.id,
+td.date {
+  font-family: var(--font-data);
+  color: var(--green-300);
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  background: var(--green-dim);
+  color: var(--green-500);
+  border: 1px solid var(--border-strong);
+}
+
+.badge.bronze {
+  color: #cf9e63;
+  background: #2a2117;
+  border-color: #4a3a24;
+}
+
+.badge.silver {
+  color: #c7d1c7;
+  background: #1e221e;
+  border-color: #3a4a3a;
+}
+
+.empty-state {
+  padding: 48px 16px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 24px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+footer .accent {
+  color: var(--green-500);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 860px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  nav.main-nav {
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: var(--bg-page);
+    border-bottom: 1px solid var(--border);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+
+  nav.main-nav.open {
+    max-height: 260px;
+  }
+
+  nav.main-nav a {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+}

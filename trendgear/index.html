@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrendGear Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">
+      <span class="dot"></span>
+      Trend<span class="accent">Gear</span>
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#metricas">Métricas</a>
+      <a href="#acerca">Acerca</a>
+    </nav>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="dashboard">
+    <section class="hero">
+      <h1>Panel de clientes</h1>
+      <p>Dataset sintético generado para pruebas de funcionalidad. No contiene información real de clientes.</p>
+    </section>
+
+    <section id="metricas" class="kpi-grid" aria-label="Indicadores clave">
+      <div class="kpi-card">
+        <p class="kpi-label">Total de clientes</p>
+        <p class="kpi-value" id="kpiTotal">—</p>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Ingreso total</p>
+        <p class="kpi-value accent" id="kpiRevenue">—</p>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Ticket promedio</p>
+        <p class="kpi-value" id="kpiAvg">—</p>
+      </div>
+      <div class="kpi-card">
+        <p class="kpi-label">Membresía Gold</p>
+        <p class="kpi-value accent" id="kpiGold">—</p>
+      </div>
+    </section>
+
+    <section id="clientes">
+      <div class="toolbar">
+        <input type="text" id="searchInput" placeholder="Buscar por nombre o ciudad..." />
+        <select id="membershipFilter">
+          <option value="">Todas las membresías</option>
+          <option value="Gold">Gold</option>
+          <option value="Silver">Silver</option>
+          <option value="Bronze">Bronze</option>
+        </select>
+        <select id="sortSelect">
+          <option value="default">Orden por defecto</option>
+          <option value="amount-desc">Monto: mayor a menor</option>
+          <option value="amount-asc">Monto: menor a mayor</option>
+          <option value="age-asc">Edad: menor a mayor</option>
+        </select>
+      </div>
+
+      <p class="result-count" id="resultCount"></p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Producto</th>
+              <th>Fecha compra</th>
+              <th>Monto</th>
+              <th>Edad</th>
+              <th>Ciudad</th>
+              <th>Pago</th>
+              <th>Membresía</th>
+            </tr>
+          </thead>
+          <tbody id="customerTableBody">
+            <tr>
+              <td colspan="9" class="empty-state">Cargando datos desde Firebase...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer id="acerca">
+    <p>TrendGear Dashboard — dataset <span class="accent">sintético</span> generado con fines de maquetación y prueba.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
